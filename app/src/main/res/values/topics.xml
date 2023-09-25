@@ -1,0 +1,24 @@
+<resources>
+    <string-array name="res_val_layouts">
+        <item>Constraint Layout</item>
+        <item>Linear Layout</item>
+        <item>Relative Layout</item>
+        <item>Table Layout</item>
+        <item>FrameLayout</item>
+        <item>Absolute Layout</item>
+        <item>ListView</item>
+        <item>GridView</item>
+    </string-array>
+    <string-array name="res_val_adapters">
+        <item>BaseAdapter</item>
+        <item>SimpleAdapter</item>
+        <item>Custom SimpleAdapter</item>
+        <item>ArrayAdapter</item>
+        <item>ArrayAdapter</item>
+    </string-array>
+    <string-array name="res_val_uicomponents">
+        <item>ListView</item>
+        <item>GridView</item>
+    </string-array>
+
+</resources>
