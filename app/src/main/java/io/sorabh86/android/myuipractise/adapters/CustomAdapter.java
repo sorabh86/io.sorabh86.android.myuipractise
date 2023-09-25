@@ -11,7 +11,7 @@ import android.widget.TextView;
 import io.sorabh86.android.myuipractise.R;
 
 /**
- * @Author: sorabh86 <sorabh86.github.com>
+ * Author: sorabh86 <sorabh86.github.com>
  * @Date: 25-09-2023
  */
 public class CustomAdapter extends BaseAdapter {
