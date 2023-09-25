@@ -7,7 +7,7 @@ import android.widget.GridView;
 
 import io.sorabh86.android.myuipractise.R;
 import io.sorabh86.android.myuipractise.adapters.CustomAdapter;
-import io.sorabh86.android.myuipractise.models.AnimalsService;
+import io.sorabh86.android.myuipractise.service.DataService;
 
 public class GridBaseAdapterActivity extends AppCompatActivity {
 
@@ -19,7 +19,7 @@ public class GridBaseAdapterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_grid_base_adapter);
 
         simpleGridView = findViewById(R.id.simpleGridView);
-        CustomAdapter customAdapter = new CustomAdapter(getApplicationContext(), AnimalsService.getAnimals());
+        CustomAdapter customAdapter = new CustomAdapter(getApplicationContext(), DataService.getAnimals());
         simpleGridView.setAdapter(customAdapter);
     }
 }
